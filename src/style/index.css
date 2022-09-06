@@ -2,15 +2,14 @@
   --primary-color: rgb(62, 100, 255);
   --complete-color: #27aa80;
   --text-color: #c1c9d6;
-  /* --text-color: #1f314e; */
+
   --disabled-color: #fad6d6;
-  /* --background-color: #f5eaea; */
+
   --background-color: #171338af;
 }
 
 html {
   background: rgb(0, 73, 191);
-  background: linear-gradient(90deg, rgba(0, 73, 191, 1) 0%, rgba(190, 190, 255, 1) 46%, rgba(0, 212, 255, 1) 100%);
   background-image: url("../src/assets/earthbg.jpg");
 }
 
@@ -142,7 +141,7 @@ select {
 }
 
 .page-header {
-  background-color: #054f7c;
+  background-color: #054e7ca9;
   padding: 25px;
   color: white;
   font-size: 30px;
@@ -209,6 +208,25 @@ select {
   font-family: sans-serif;
   color: white;
   border: 1px solid black;
+}
+
+.info-btn {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 2%;
+  left: 92%;
+
+  background-color: #2472a091;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.info-btn:hover {
+  background-color: #338cc0;
 }
 
 @media (max-width: 1150px) {

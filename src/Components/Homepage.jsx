@@ -7,6 +7,7 @@ import { data, statuses } from '../data/data'
 
 
 import Header from './Header'
+import InfoButton from './InfoButton'
 
 
 
@@ -35,8 +36,7 @@ const Homepage = () => {
             return;
         }
         const dragItem = items[dragIndex];
-        const hoverItem = items[hoverIndex];
-        setPrevItems(items)
+
 
 
         setItems(prevState => {
@@ -53,6 +53,9 @@ const Homepage = () => {
     return (
         <div className="homepage">
             <Header />
+
+            <InfoButton />
+
             <div className="row" >
 
 
@@ -85,6 +88,7 @@ const Homepage = () => {
 
 
             </div>
+            <InfoButton />
         </div>
     )
 

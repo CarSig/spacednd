@@ -2,10 +2,8 @@ import React from 'react'
 import { useDrop } from 'react-dnd'
 import { ITEM_TYPE, statuses } from "../data/data"
 
-
 const DropWrapper = ({ onDrop, children, status }) => {
     const [{ isOver }, drop] = useDrop({
-        message: console.log("status", status),
         accept: ITEM_TYPE,
         canDrop: (item, monitor) => {
             const itemIndex = statuses.findIndex(si => si.status === item.status);

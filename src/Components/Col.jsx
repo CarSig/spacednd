@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Col = ({ isOver, children }) => {
@@ -12,5 +11,3 @@ const Col = ({ isOver, children }) => {
 };
 
 export default Col;
-
-//xcontainer class in dive

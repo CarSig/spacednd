@@ -5,4 +5,10 @@ Items can be drag&dropped to other neighboring container and then it changes sta
 
 If items dropped inside of same container then they just change order
 
-Made with react-dnd package
+# Libraries used
+
+react-dnd package, react-dnd-html5-backend, react-dnd-html5-backend'
+
+# Attribution
+
+Icon image by rawpixel.com on Freepik
